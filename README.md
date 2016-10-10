@@ -39,15 +39,17 @@ Example of installation on debian-like systems (adjust code for your environment
 	sudo chown root:root /usr/bin/rollpaper
 	sudo chmod 755 /usr/bin/rollpaper
 
+After installation start rollpaper with `rollpaper` command.
+
 ### Usage
 
-To start rollpaper just execute `start.py`
+Install rollpaper to your system (see install part), or simply clone repository
 
-	/usr/bin/python /path/to/rollpaper/start.py
+	git clone https://github.com/fffilo/rollpaper /path/to/rollpaper
 
-...or if you installed it on your system (see install part), simply
+...and start it with
 
-	/usr/bin/rollpaper
+	/usr/bin/python /path/to/rollpaper/src/start.py
 
 ### Configuration
 
